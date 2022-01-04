@@ -5,6 +5,23 @@ let player = 1;
 let play1 = [];
 let play2 = [];
 
+function winner() {
+  for (let y = 0; y < findWinner.length; y++) {
+    let box = findWinner[y];
+    if (box.every((o) => gameClick[o].classList.contains('play1'))) {
+      win.innerHTML = 'PLAYER 1 WINS!';
+      alert('Player 1 Wins!');
+      window.location.href =
+        '/Users/starnesharussell/ga_seir/unit1/homework/Connect-Four-Game/welcome.html';
+    } else if (box.every((b) => gameClick[b].classList.contains('play2'))) {
+      win.innerHTML = 'PLAYER 2 WINS!';
+      alert('Player 2 Wins!');
+      window.location.href =
+        '/Users/starnesharussell/ga_seir/unit1/homework/Connect-Four-Game/welcome.html';
+    }
+  }
+}
+
 for (let i = 0; i < gameClick.length; i++) {
   gameClick[i].onclick = () => {
     if (
