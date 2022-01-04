@@ -1,6 +1,10 @@
 const gameClick = document.querySelectorAll('div');
 const win = document.getElementById('winner');
 
+let player = 1;
+let play1 = [];
+let play2 = [];
+
 for (let i = 0; i < gameClick.length; i++) {
   gameClick[i].onclick = () => {
     if (
