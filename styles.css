@@ -6,12 +6,6 @@ body {
   flex-direction: column;
   background-image: url('/Users/starnesharussell/Downloads/Untitled design (22).png');
 }
-/* 
-#btn {
-  height: 50px;
-  width: 50px;
-  color: #f5e6d8;
-} */
 
 #gameboard {
   height: 750px;
@@ -94,4 +88,11 @@ form {
 }
 .buttons {
   margin: left 80px;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
