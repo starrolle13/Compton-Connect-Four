@@ -4,7 +4,7 @@ body {
   padding-top: 30px;
   margin: 40px;
   flex-direction: column;
-  background-color: #f5e6d8;
+  background-image: url('/Users/starnesharussell/Downloads/Untitled design (21).png');
 }
 
 #btn {
@@ -13,7 +13,7 @@ body {
   color: #f5e6d8;
 }
 
-section {
+#gameboard {
   height: 750px;
   width: 750px;
   display: flex;
@@ -42,7 +42,7 @@ h1 {
   justify-content: center;
   color: red;
   text-shadow: 2px 2px 4px #000000;
-  font-size: 60px;
+  font-size: xx-large;
   font-family: 'Alfa Slab One', cursive;
 }
 h2 {
@@ -51,7 +51,7 @@ h2 {
   font-size: 40px;
   text-shadow: 2px 2px 4px #000000;
   font-family: 'Alfa Slab One', cursive;
-  color: #f5e6d8;
+  color: #004aad;
   text-align: center;
 }
 
@@ -67,7 +67,7 @@ img {
   pointer-events: none;
   height: 90px;
   width: 90px;
-  background-color: #f6f400;
+  background-color: blue;
   border-radius: 70%;
   margin: 6px;
 }
@@ -90,4 +90,7 @@ form {
   background-color: #f6f400;
   border-radius: 70%;
   margin: 6px;
+}
+.buttons {
+  text-align: center;
 }
