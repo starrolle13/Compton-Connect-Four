@@ -18,6 +18,9 @@ body {
   border-radius: 3px;
   text-shadow: 2px 2px 4px #000000;
 }
+div:hover {
+  background-color: #f1aeae;
+}
 
 nav {
   display: flex;
@@ -86,6 +89,7 @@ form {
   border-radius: 70%;
   margin: 6px;
 }
+
 .buttons {
   margin: left 80px;
 }
