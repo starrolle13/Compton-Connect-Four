@@ -4,14 +4,14 @@ body {
   padding-top: 30px;
   margin: 40px;
   flex-direction: column;
-  background-image: url('/Users/starnesharussell/Downloads/Untitled design (22).png');
+  background-image: url('/Users/starnesharussell/Downloads/Untitled design (24).png');
 }
 
 #gameboard {
   height: 750px;
   width: 750px;
   display: flex;
-  background-color: #f6f400;
+  background-color: #dd3131;
   flex-wrap: wrap;
   justify-content: space-between;
   margin: auto;
@@ -62,7 +62,7 @@ img {
   pointer-events: none;
   height: 90px;
   width: 90px;
-  background-color: #f6f400;
+  background-color: #dd3131;
   border-radius: 70%;
   margin: 6px;
 }
