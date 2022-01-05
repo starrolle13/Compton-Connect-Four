@@ -4,14 +4,14 @@ body {
   padding-top: 30px;
   margin: 40px;
   flex-direction: column;
-  background-image: url('/Users/starnesharussell/Downloads/Untitled design (21).png');
+  background-image: url('/Users/starnesharussell/Downloads/Untitled design (22).png');
 }
-
+/* 
 #btn {
   height: 50px;
   width: 50px;
   color: #f5e6d8;
-}
+} */
 
 #gameboard {
   height: 750px;
@@ -21,7 +21,8 @@ body {
   flex-wrap: wrap;
   justify-content: space-between;
   margin: auto;
-  border-radius: 1px;
+  border-radius: 3px;
+  text-shadow: 2px 2px 4px #000000;
 }
 
 nav {
@@ -51,7 +52,7 @@ h2 {
   font-size: 40px;
   text-shadow: 2px 2px 4px #000000;
   font-family: 'Alfa Slab One', cursive;
-  color: #004aad;
+  color: blue;
   text-align: center;
 }
 
@@ -67,7 +68,7 @@ img {
   pointer-events: none;
   height: 90px;
   width: 90px;
-  background-color: blue;
+  background-color: #f6f400;
   border-radius: 70%;
   margin: 6px;
 }
@@ -92,5 +93,5 @@ form {
   margin: 6px;
 }
 .buttons {
-  text-align: center;
+  margin: left 80px;
 }
