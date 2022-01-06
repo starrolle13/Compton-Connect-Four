@@ -4,7 +4,7 @@ const win = document.getElementById('winner');
 let player = 1;
 let play1 = [];
 let play2 = [];
-
+/// winning array
 const findWinner = [
   [0, 1, 2, 3],
   [41, 40, 39, 38],
@@ -77,6 +77,7 @@ const findWinner = [
   [13, 20, 27, 34]
 ];
 
+///function to find winner
 function winner() {
   for (let y = 0; y < findWinner.length; y++) {
     let box = findWinner[y];
@@ -89,7 +90,7 @@ function winner() {
     }
   }
 }
-
+///function to turn off game
 function turnOffGame() {
   if (win.innerHTML == 'PLAYER 1 WINS!' || win.innerHTML == 'PLAYER 2 WINS!') {
     gameClick.forEach((click) => {
@@ -97,7 +98,7 @@ function turnOffGame() {
     });
   }
 }
-
+///function to play game
 function gamePlay() {
   for (let i = 0; i < gameClick.length; i++) {
     gameClick[i].onclick = () => {
