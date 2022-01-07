@@ -16,7 +16,7 @@ for (let i = 0; i < board.length; i++) {
       board[i].style.backgroundImage =
         "url('/Users/starnesharussell/Downloads/Untitled design (5)/1.png')";
       ding.play();
-      // document.querySelector('h2').innerHTML = 'PLAYER 2';
+      document.querySelector('h2').innerHTML = 'PLAYER 2';
       board[i].classList.add('play1');
       playX.push(i);
       // winner();
@@ -25,7 +25,7 @@ for (let i = 0; i < board.length; i++) {
       board[i].style.backgroundImage =
         "url('/Users/starnesharussell/Downloads/Untitled design (5)/2.png')";
       ding.play();
-      // document.querySelector('h2').innerHTML = 'PLAYER 1';
+      document.querySelector('h2').innerHTML = 'PLAYER 1';
       board[i].classList.add('play2');
       playO.push(i);
       // winner();
