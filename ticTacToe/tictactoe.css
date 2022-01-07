@@ -1,21 +1,3 @@
-.gameboard {
-  height: 360px;
-  width: 360px;
-  display: flex;
-  background-color: #dd3131;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  margin: auto;
-  border-radius: 3px;
-  text-shadow: 2px 2px 4px #000000;
-}
-div {
-  height: 100px;
-  width: 100px;
-  background-color: white;
-  margin: 6px;
-}
-
 body {
   display: flex;
   justify-content: center;
@@ -23,4 +5,42 @@ body {
   margin: 40px;
   flex-direction: column;
   /* background-image: url('/Users/starnesharussell/Downloads/Untitled design (23).png'); */
+}
+.gameboard {
+  height: 360px;
+  width: 360px;
+  display: flex;
+  background-color: #dd3131;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+  border-radius: 3px;
+  text-shadow: 2px 2px 4px #000000;
+  box-shadow: 5px 5px 5px black;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+  color: red;
+  text-shadow: 2px 2px 4px #000000;
+  font-size: 50px;
+  font-family: 'Alfa Slab One', cursive;
+}
+div {
+  height: 100px;
+  width: 100px;
+  background-color: white;
+  margin: 6px;
+  box-shadow: 5px 5px 5px black;
+}
+.controls {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.playX {
+  pointer-events: none;
+}
+.playO {
+  pointer-events: none;
 }

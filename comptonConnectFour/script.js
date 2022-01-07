@@ -1,5 +1,8 @@
 const gameClick = document.querySelectorAll('div');
 const win = document.getElementById('winner');
+const ding = new Audio(
+  '/Users/starnesharussell/Desktop/sei1213/unit1/projects/Compton-Connect-Four/mp3/app_alert_tone_020.mp3'
+);
 
 let player = 1;
 let play1 = [];
@@ -110,6 +113,7 @@ function gamePlay() {
         if (player == 1) {
           gameClick[i].style.backgroundImage =
             "url('/Users/starnesharussell/Downloads/Untitled (Circle Sticker) (1).png')";
+          ding.play();
           document.querySelector('h2').innerHTML = 'PLAYER 2';
           gameClick[i].classList.add('play1');
           play1.push(i);
@@ -118,6 +122,7 @@ function gamePlay() {
         } else if (player == 2) {
           gameClick[i].style.backgroundImage =
             "url('/Users/starnesharussell/Downloads/Untitled (Circle Sticker).png')";
+          ding.play();
           document.querySelector('h2').innerHTML = 'PLAYER 1';
           gameClick[i].classList.add('play2');
           play2.push(i);
