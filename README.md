@@ -8,7 +8,7 @@ This project will consist of two HTML pages with a fully functional game made wi
 
 ## Game Screen
 
-![Game](/Users/starnesharussell/Desktop/ConnectFour.png)
+![Game](https://photos.app.goo.gl/A5rejjRruzasJfB9A)
 
 ## Game Features
 
