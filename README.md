@@ -8,7 +8,7 @@ This project will consist of two HTML pages with a fully functional game made wi
 
 ## Game Screen
 
-![Home Page](http://clipart-library.com/img/1772535.png)
+![Home Page](/Users/starnesharussell/Desktop/Screen Shot 2022-01-09 at 7.49.40 PM.png)
 
 ## Game Features
 
@@ -44,8 +44,10 @@ This project will consist of two HTML pages with a fully functional game made wi
 
 ## 🤝 Credits
 
-#### -[Dev.TO](https://dev.to/rohit19060/how-to-write-stunning-github-readme-md-template-provided-5b09) 
+#### -[Dev.TO](https://dev.to/rohit19060/how-to-write-stunning-github-readme-md-template-provided-5b09)
+
 #### -[Stack Overflow](https://stackoverflow.com/)
+
 #### -[Blackpast.org](https://www.blackpast.org/african-american-history/compton-california-1867/)
 
 Give a ⭐️ if you like this project!
