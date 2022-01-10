@@ -57,3 +57,6 @@ div:hover {
 .play2 {
   pointer-events: none;
 }
+.endGame {
+  pointer-events: none;
+}

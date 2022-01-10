@@ -4,14 +4,14 @@ body {
   padding-top: 30px;
   margin: 40px;
   flex-direction: column;
-  background-image: url('/Users/starnesharussell/Downloads/Untitled design (23).png');
+  background-image: url('/Users/starnesharussell/Downloads/Untitled design (24).png');
 }
 
 #gameboard {
   height: 750px;
   width: 750px;
   display: flex;
-  background-color: slategray;
+  background-color: #dd3131;
   flex-wrap: wrap;
   justify-content: space-between;
   margin: auto;
@@ -20,7 +20,7 @@ body {
   box-shadow: 5px 5px 5px black;
 }
 div:hover {
-  background-color: lightgray;
+  background-color: #f1aeae;
 }
 
 nav {
@@ -34,25 +34,25 @@ div {
   background-color: white;
   border-radius: 70%;
   margin: 6px;
+  text-shadow: 2px 2px 4px #000000;
   box-shadow: 5px 5px 5px black;
 }
 
 h1 {
   display: flex;
   justify-content: center;
-  color: white;
+  color: red;
   text-shadow: 2px 2px 4px #000000;
-  font-size: xx-large;
+  font-size: 50px;
   font-family: 'Alfa Slab One', cursive;
 }
-
 h2 {
   display: flex;
   justify-content: center;
   font-size: 40px;
   text-shadow: 2px 2px 4px #000000;
   font-family: 'Alfa Slab One', cursive;
-  color: lightgray;
+  color: blue;
   text-align: center;
 }
 
@@ -68,9 +68,10 @@ img {
   pointer-events: none;
   height: 90px;
   width: 90px;
-  background-color: slategray;
-  border-radius: 70%;
+  background-color: #dd3131;
+  /* border-radius: 70%; */
   margin: 6px;
+  border: none;
   box-shadow: none;
 }
 form {
@@ -108,11 +109,10 @@ form {
 .endGame {
   pointer-events: none;
 }
-
 #secret {
   display: flex;
   justify-content: center;
-  font-size: 40px;
+  font-size: 20px;
   text-shadow: 2px 2px 4px #000000;
   font-family: 'Alfa Slab One', cursive;
   color: lightgray;

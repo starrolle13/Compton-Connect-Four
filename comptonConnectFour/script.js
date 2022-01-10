@@ -1,5 +1,6 @@
 const gameClick = document.querySelectorAll('div');
 const win = document.getElementById('winner');
+const secret = document.getElementById('secret');
 const ding = new Audio(
   '/Users/starnesharussell/Desktop/sei1213/unit1/projects/Compton-Connect-Four/mp3/app_alert_tone_020.mp3'
 );
@@ -87,9 +88,11 @@ function winner() {
     if (box.every((o) => gameClick[o].classList.contains('play1'))) {
       win.innerHTML = 'PLAYER 1 WINS!';
       turnOffGame();
+      secret.innerHTML = 'Secret Level';
     } else if (box.every((b) => gameClick[b].classList.contains('play2'))) {
       win.innerHTML = 'PLAYER 2 WINS!';
       turnOffGame();
+      secret.innerHTML = 'Secret Level';
     }
   }
 }
