@@ -36,6 +36,10 @@ This project will consist of three HTML pages with a fully functional game made 
 
 #### By the mid-1950s, white flight—the process of white families rapidly leaving a neighborhood due to changing racial demographics—was spreading in Compton. Real-estate brokers accelerated this process by scaring white families with threats of low property values due to the new racially integrated neighborhoods. The black population in Compton rose from 5 percent in 1940 to 40 percent in 1960. The Watts Riots of 1965 accelerated black flight from Los Angeles and in turn increased white flight from Compton. By 1970, Compton had become 65 percent African American.
 
+## Secreet Game
+
+![Tic Tac Toe](https://i.ibb.co/QFx0y1W/Screen-Shot-2022-01-10-at-7-27-06-AM.png)
+
 ## Featured Languages
 
 - JavaScript
