@@ -1,14 +1,22 @@
 # Compton-Connect-Four
 
-This project will consist of two HTML pages with a fully functional game made with Javascript and CSS as well.
+This project will consist of three HTML pages with a fully functional game made with Javascript, CSS and Bootstrap as well.
 
 ## Links
 
 - [Trello](https://trello.com/b/3ZWSLVfK/compton-connect-four)
 
+## Sample Game
+
+![Inspiration](https://i.ibb.co/ZxJTyTY/Screen-Shot-2022-01-10-at-7-11-49-AM.png)
+
+## How To Start Game
+
+#### Click on the area that you want your game piece to go to. The proper color piece will show up in the proper circle. First one to connect four wins!
+
 ## Game Screen
 
-![Game](https://photos.app.goo.gl/A5rejjRruzasJfB9A)
+![Game](https://i.ibb.co/8Mh2zYY/Connect-Four.png)
 
 ## Game Features
 
